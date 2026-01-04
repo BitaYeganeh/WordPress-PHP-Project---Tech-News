@@ -92,27 +92,27 @@ technews/                  (WordPress theme folder)
 │   └── News
 │
 └── README.md
-```
+------
 
----
+```
 
 🛠️ Technologies Used
 
-PHP
+### PHP
 
-WordPress
+### WordPress
 
-HTML5
+### HTML5
 
-CSS3
+### CSS3
 
-JavaScript / jQuery
+### JavaScript / jQuery
 
-MySQL
-
-## Local development environment (XAMPP)
+### MySQL
 
 ---
+
+Local development environment (XAMPP)
 
 💻 Local Setup Instructions
 
@@ -120,8 +120,16 @@ Install XAMPP or another local server environment
 
 Clone this repository:
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/BitaYeganeh/WordPress-PHP-Project---Tech-News.git
 
 Move the theme folder into:
 
 wp-content/themes/
+
+Start Apache and MySQL from XAMPP
+
+Open the WordPress admin dashboard
+
+Activate the Tech News theme
+
+Create posts and assign categories to view dynamic content
