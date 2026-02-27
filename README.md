@@ -12,9 +12,7 @@ This project was built for learning and portfolio purposes, with multiple custom
 
 # 🌟 Project Preview
 
-<p align="center">
-  <img src="screenshots/Home/front-page-ai.png" width="900">
-</p>
+![Home Preview](screenshots/Home/front-page-ai.png)
 
 ---
 
