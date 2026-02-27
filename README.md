@@ -1,74 +1,133 @@
-# Tech News – Custom WordPress Theme
+# 📰 Tech News – Custom WordPress Theme
 
 ## 📌 Project Overview
 
-**Tech News** is a custom WordPress theme developed from scratch using PHP, CSS, JavaScript, and WordPress core functionality.
+**Tech News** is a fully custom WordPress theme developed from scratch using **PHP, WordPress core, HTML5, CSS3, JavaScript (jQuery), and MySQL**.
 
-The theme is designed as a tech news and blog website featuring categorized posts, responsive navigation, testimonials, and contact functionality.
+The theme is designed as a modern tech news and blog website featuring categorized posts, dynamic content rendering, responsive navigation, testimonials, and enhanced contact functionality.
 
-This project was created for learning and portfolio purposes, with multiple custom features implemented beyond tutorial content.
+This project was built for learning and portfolio purposes, with multiple custom features implemented beyond tutorial material.
 
 ---
 
-## 🚀 Key Features
+# 🌟 Project Preview
+
+<p align="center">
+  <img src="screenshots/Home/front-page-ai.png" width="900">
+</p>
+
+---
+
+# 🚀 Key Features
 
 - Custom WordPress theme (no page builders)
 - Blog and category-based news layout
-- Responsive design for desktop and mobile
-- Sidebar with latest posts and links
-- Contact form with enhanced user feedback
+- Fully responsive design (desktop + mobile)
+- Sidebar with latest posts
+- Custom WP_Query implementation
+- Mobile navigation toggle (jQuery)
+- Contact Form 7 popup message enhancement
 - Custom CSS animations
+- Clean file structure
 
 ---
 
-## 🆕 Custom Features (Beyond Tutorials)
+# 🆕 Custom Features (Beyond Tutorials)
 
-### 1. Custom WP_Query on Front Page
+---
 
-- **File:** `front-page.php`
-- **Screenshot:** `screenshots/front-page-ai.png`
-- Displays only posts from the **“AI”** category
+## 1️⃣ Custom WP_Query on Front Page
+
+**File:** `front-page.php`
+
+- Displays posts from the **AI category**
 - Limited to the **two most recent posts**
-- Implemented using `WP_Query`
-- This functionality was researched and implemented independently
+- Implemented using a custom `WP_Query`
+- Independently researched and implemented
+
+<p align="center">
+  <img src="screenshots/AI/ai_category.png" width="800">
+</p>
 
 ---
 
-### 2. Animated Rainbow Gradient Site Title
+## 2️⃣ Animated Rainbow Gradient Site Title
 
-- **Screenshot:** `screenshots/header-title.png`
-- CSS animated rainbow gradient using `@keyframes`
-- Adds a unique visual effect to the site header
-- Fully custom CSS implementation
+- Custom CSS animation using `@keyframes`
+- Gradient text animation applied to site title
+- Fully handcrafted styling
 
----
-
-### 3. Responsive Mobile Menu Toggle
-
-- **Files:** `script.js`, `header.php`
-- **Screenshots:**
-  - `screenshots/menu-mobile.png`
-  - `screenshots/menu-mobile2.png`
-- Mobile navigation toggle implemented using jQuery
-- Improves usability on smaller screens
-- Not included in the learning tutorials
+<p align="center">
+  <img src="screenshots/My-Features/header-title.png" width="700">
+</p>
 
 ---
 
-### 4. Contact Form 7 Popup Messages
+## 3️⃣ Responsive Mobile Menu Toggle
 
-- **Screenshot:** `screenshots/cf7-popup.png`
-- Custom JavaScript used to display popup messages on form submission
-- Replaces default inline Contact Form 7 messages
+**Files:** `script.js`, `header.php`
+
+- jQuery-based toggle functionality
+- Enhances usability on smaller screens
+- Not part of tutorial content
+
+<p align="center">
+  <img src="screenshots/My-Features/menu-mobile.png" width="400">
+  <img src="screenshots/My-Features/menu-mobile2.png" width="400">
+</p>
+
+---
+
+## 4️⃣ Contact Form 7 Popup Messages
+
+- Custom JavaScript intercepts submission response
+- Replaces default inline CF7 messages
 - Handles both success and error states
-- Fully custom implementation
+
+<p align="center">
+  <img src="screenshots/My-Features/cf7-popup.png" width="700">
+</p>
+
+### Error State
+
+<p align="center">
+  <img src="screenshots/Contact-us/error_message.png" width="600">
+</p>
+
+### Success State
+
+<p align="center">
+  <img src="screenshots/Contact-us/submit_message.png" width="600">
+</p>
 
 ---
 
-## 🗂️ Theme Folder Structure
+# 🗂 Category Pages
+
+## 🤖 AI Category
+
+<p align="center">
+  <img src="screenshots/AI/ai_category.png" width="800">
+</p>
+
+## 📱 Gadgets Category
+
+<p align="center">
+  <img src="screenshots/Gadgets/gadgets_category.png" width="800">
+</p>
+
+## 🔐 Cybersecurity Category
+
+<p align="center">
+  <img src="screenshots/Cybersecurity/cybersecurity.png" width="800">
+</p>
+
+---
+
+# 🗂 Theme Folder Structure
 
 ```text
-technews/                  (WordPress theme folder)
+technews/
 │── style.css
 │── functions.php
 │── script.js
@@ -82,54 +141,55 @@ technews/                  (WordPress theme folder)
 │── banner.jpg
 │
 ├── screenshots/
-│   ├── My-Features
-│   ├── Home
-│   ├── Gadgets
-│   ├── AI
-│   ├── Cybersecurity
-│   ├── Contact-us
-│   ├── Contact-details
-│   └── News
+│   ├── AI/
+│   ├── Contact-details/
+│   ├── Contact-us/
+│   ├── Cybersecurity/
+│   ├── Gadgets/
+│   ├── Home/
+│   ├── My-Features/
+│   └── News/
 │
 └── README.md
-------
-
 ```
-
-🛠️ Technologies Used
-
-### PHP
-
-### WordPress
-
-### HTML5
-
-### CSS3
-
-### JavaScript / jQuery
-
-### MySQL
 
 ---
 
-Local development environment (XAMPP)
+# 🛠 Technologies Used
 
-💻 Local Setup Instructions
+- PHP  
+- WordPress  
+- HTML5  
+- CSS3  
+- JavaScript / jQuery  
+- MySQL  
+- XAMPP (Local Development)
 
-Install XAMPP or another local server environment
+---
 
-Clone this repository:
+# 💻 Local Setup Instructions
 
+1. Install XAMPP (or another local server environment)
+2. Clone this repository:
+
+```bash
 git clone https://github.com/BitaYeganeh/WordPress-PHP-Project---Tech-News.git
+```
 
-Move the theme folder into:
+3. Move the theme folder into:
 
+```
 wp-content/themes/
+```
 
-Start Apache and MySQL from XAMPP
+4. Start Apache and MySQL
+5. Open the WordPress admin dashboard
+6. Activate the **Tech News** theme
+7. Create posts and assign categories to view dynamic content
 
-Open the WordPress admin dashboard
+---
 
-Activate the Tech News theme
+# 👩‍💻 Author
 
-Create posts and assign categories to view dynamic content
+**Bita Yeganeh**  
+WordPress & PHP Developer
