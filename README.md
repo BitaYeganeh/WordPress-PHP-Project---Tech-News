@@ -99,9 +99,7 @@ This project was built for learning and portfolio purposes, with multiple custom
 
 ![Preview](/scrrenshots/Gadgets/gadgets_category.png)
 
-## 🔐 Cybersecurity Category
 
-![Preview](/scrrenshots/Cybersecurity/cybersecurity.png)
 
 ---
 
