@@ -12,7 +12,7 @@ This project was built for learning and portfolio purposes, with multiple custom
 
 # 🌟 Project Preview
 
-![Home Preview](screenshots/Home/front-page-ai.png)
+![Home Preview](/scrrenshots/Home/front-page-ai.png)
 
 ---
 
@@ -43,9 +43,7 @@ This project was built for learning and portfolio purposes, with multiple custom
 - Implemented using a custom `WP_Query`
 - Independently researched and implemented
 
-<p align="center">
-  <img src="screenshots/AI/ai_category.png" width="800">
-</p>
+![AI Category Preview](/scrrenshots/AI/ai_category.png)
 
 ---
 
@@ -55,9 +53,7 @@ This project was built for learning and portfolio purposes, with multiple custom
 - Gradient text animation applied to site title
 - Fully handcrafted styling
 
-<p align="center">
-  <img src="screenshots/My-Features/header-title.png" width="700">
-</p>
+![Preview](/scrrenshots/My-Features/header-title.png)
 
 ---
 
@@ -69,10 +65,8 @@ This project was built for learning and portfolio purposes, with multiple custom
 - Enhances usability on smaller screens
 - Not part of tutorial content
 
-<p align="center">
-  <img src="screenshots/My-Features/menu-mobile.png" width="400">
-  <img src="screenshots/My-Features/menu-mobile2.png" width="400">
-</p>
+![Mobile menu Preview](/scrrenshots/My-Features/menu-mobile.png)
+ ![Mobile menu Preview 2](/scrrenshots/My-Features/menu-mobile2.png)
 
 ---
 
@@ -82,21 +76,16 @@ This project was built for learning and portfolio purposes, with multiple custom
 - Replaces default inline CF7 messages
 - Handles both success and error states
 
-<p align="center">
-  <img src="screenshots/My-Features/cf7-popup.png" width="700">
-</p>
+![Preview](/scrrenshots/My-Features/cf7-popup.png)
 
 ### Error State
 
-<p align="center">
-  <img src="screenshots/Contact-us/error_message.png" width="600">
-</p>
+![Preview](/scrrenshots/Contact-us%20/error_message.png)
+
 
 ### Success State
 
-<p align="center">
-  <img src="screenshots/Contact-us/submit_message.png" width="600">
-</p>
+![Preview](/scrrenshots/Contact-us%20/submit_message.png)
 
 ---
 
@@ -104,21 +93,15 @@ This project was built for learning and portfolio purposes, with multiple custom
 
 ## 🤖 AI Category
 
-<p align="center">
-  <img src="screenshots/AI/ai_category.png" width="800">
-</p>
+![Preview](/scrrenshots/AI/ai_category.png)
 
 ## 📱 Gadgets Category
 
-<p align="center">
-  <img src="screenshots/Gadgets/gadgets_category.png" width="800">
-</p>
+![Preview](/scrrenshots/Gadgets/gadgets_category.png)
 
 ## 🔐 Cybersecurity Category
 
-<p align="center">
-  <img src="screenshots/Cybersecurity/cybersecurity.png" width="800">
-</p>
+![Preview](/scrrenshots/Cybersecurity/cybersecurity.png)
 
 ---
 
