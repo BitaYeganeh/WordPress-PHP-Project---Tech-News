@@ -1,0 +1,323 @@
+/*
+Theme name : Tech News
+Author : Bita Yeganeh
+*/
+/* Reset common default margins/paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#site-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: auto;
+}
+
+#top-navi {
+    background-color: #77b0c6;
+    border: solid 2px #0c383f;
+}
+#top-navi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-wrap: wrap;
+}
+#top-navi ul li {
+    position: relative;
+}
+
+#top-navi li a {
+    text-decoration: none;
+    color:rgb(37, 5, 2);
+    font-weight: bold;
+    display: block;
+    padding:10px 20px;
+    text-align: center;
+}
+#top-navi .sub-menu{
+    position:absolute;
+    top:100%;
+    left:0;
+    z-index: 1;
+    padding: 2px;
+    display: none;
+}
+/* Highlight active menu item */
+#top-navi ul li.current-menu-item a,
+#top-navi ul li.current-menu-ancestor a {
+    background-color:rgb(176, 219, 211);  /* change to your preferred color */
+    color: #000;                 /* text color */
+    font-weight: bold;
+}
+#top-navi li:hover  .sub-menu {
+    display: block;
+
+}
+    
+#top-navi .sub-menu li {
+ white-space: nowrap;
+ width: 100%;
+
+}
+#top-navi .sub-menu li a{
+    background-color: rgb(176, 219, 211);
+    width: 100%;
+}
+#top-navi ul li:first-child {
+    display: none;
+}
+#site-header {
+    background: url('banner.jpg') no-repeat center center;
+    background-size: cover;
+    height: 200px;
+    display: flex;           /* center content */
+    justify-content: center; /* horizontal centering */
+    align-items: center;     /* vertical centering */
+    text-align: center;
+}
+.site-title a {
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: none;
+    background: linear-gradient(
+        90deg,
+        red, orange, yellow, green, blue, indigo, violet
+    );
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    animation: rainbow 6s linear infinite;
+}
+
+@keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+#content{
+    border-left: solid 2px #0c8ca0;
+    border-right: solid 2px #0c8ca0;
+    display: flex;
+}
+
+#content main{
+    width:80%;
+    padding:20px;
+}
+#content main a {
+    text-decoration: none;
+    color:#08636f;
+    font-weight: bold;
+}
+
+#content main h1 , #content main h2 {
+    color: #6f0849;
+}
+#content main h1 a:hover, #content main h2 a:hover {
+    color:#6f0849;
+}
+
+#content main .date-category {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    color:#7129d5;
+}
+
+#content main article {
+    border-bottom: dashed 2px #0c8ca0;
+    margin-bottom: 10px;
+}
+#content main article:last-child {
+    border-bottom: none;
+}
+#content main .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 1px 8px;
+    color: #7129d5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+content #sidebar {
+    width: 20%;
+    background-color: #e0f7fa;
+    border-left: solid 2px #0c8ca0;
+    padding: 30px;
+}
+#content #sidebar h2 , #sidebar h1{
+    background-color: #77b0c6;
+    color: rgb(42, 20, 121);
+    padding: 10px;
+    font-size: 1.25em;
+}
+#content #sidebar > div:first-child > h2, #content #sidebar > div:first-child > h1 {
+margin-top: 30px;
+}
+#content #sidebar a{
+    text-decoration: none;
+    color: #7129d5;
+}
+#front-page #site-main {
+
+}
+
+
+
+/* Style post container */
+.posts-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2px;
+}
+
+/* Style each article */
+.posts-container article {
+  margin-bottom: 40px;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  line-height: 2;
+}
+
+/* Title styling */
+.posts-container article h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 1px;
+}
+
+/* Date styling */
+.posts-container .date-category {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Content styling */
+.posts-container article p {
+  font-size: 18px;
+  line-height: 1.6;
+  line-height: 2;
+  color: #333;
+}
+/* Container for the form */
+.cf7-title {
+    display: none;
+}
+
+
+.wpcf7 {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border:2px solid #034f5a;
+    border-radius: 10px;
+    background-color: #dbeef0;
+}
+
+
+/* Form labels */
+.wpcf7 label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    
+
+}
+
+/* Text inputs and textarea */
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Submit button */
+.wpcf7 input[type="submit"] {
+    display: block;       /* make it a block element */
+    margin: 20px auto 0;  /* top 20px, horizontal auto to center, bottom 0 */
+    padding: 10px 20px;
+    background-color: #82d8dc;
+    color:black;
+    cursor: pointer;
+    border-radius: 5px;
+    border:2px solid #034f5a;
+    
+}
+
+/* Hover effect for submit */
+.wpcf7 input[type="submit"]:hover {
+    background-color: #a017a5;
+    color:white;
+}
+
+/* Popup styling for CF7 */
+.cf7-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #b588bf;
+    color: #053536;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    z-index: 9999;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+
+.cf7-popup.error {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+
+
+#site-footer {
+    background-color: #77b0c6;
+    border: solid 2px #0c383f;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0;  /* remove the gap */
+    font-size: 1rem;
+}
+
+
+@media only screen and (max-width:950px){
+    #content {
+        display:block;
+    }
+    #content main, #content #sidebar{
+        width:100%;
+    }
+    #top-navi ul {
+        display:block;
+    }
+    #top-navi .sub-menu{
+        display: block;
+        position: relative;
+        top:0;
+        left:0;
+        font-size: 0.8em;
+    } 
+    #top-navi ul li:first-child {
+    display: block;
+}
+#top-navi ul li:not(:first-child) {
+    display: none;
+}
+
+}

@@ -1,0 +1,87 @@
+/* Technews Testimonials Plugin Styles */
+
+.tn-testimonials {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+    gap: 20px !important;
+}
+.tn-testimonials .testimonial {
+    border: 3px solid #0898d1;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.tn-testimonials .testimonial img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.tn-testimonials .testimonial h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+/* sidebar-widget */
+.tn-testimonials-widget {
+    display: flex;
+    flex-direction: column;
+    gap:200px;
+
+}
+/* each testimonial card*/
+.tn-testimonials-widget .testimonial{
+  border: 2px solid #0898d1;
+  padding: 15px;
+  margin-top: 50px;
+  border-radius: 20px;
+  background:rgb(176, 219, 211);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width:100%;
+  box-sizing: border-box;
+
+}
+.tn-testimonials-widget .testimonial-image img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid #850d9f;
+}
+
+/* Testimonial content */
+.tn-testimonials-widget .testimonial-content p {
+  font-size: 24px;
+  line-height: 1.6;
+  color: rgb(42, 20, 121);
+  margin: 0 0 8px;
+  font-style: italic;
+  position: relative;
+  padding-left: 18px;
+}
+
+.tn-testimonials-widget .testimonial-content p::before {
+  content: "“";
+  font-size: 24px;
+  color: #700a98;
+  position: absolute;
+  left: 0;
+  top: -4px;
+}
+
+/* Commenter name */
+.tn-testimonials-widget .testimonial-name {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  color: #6f0849;
+  margin-top: 5px;
+  text-align: right;
+}
