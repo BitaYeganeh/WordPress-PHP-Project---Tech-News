@@ -8,11 +8,13 @@ The theme is designed as a modern tech news and blog website featuring categoriz
 
 This project was built for learning and portfolio purposes, with multiple custom features implemented beyond tutorial material.
 
+**🔗 Live site:** [bitayeganeh.github.io/WordPress-PHP-Project---Tech-News](https://bitayeganeh.github.io/WordPress-PHP-Project---Tech-News/)
+
 ---
 
 # 🌟 Project Preview
 
-![Home Preview](/scrrenshots/Home/front-page-ai.png)
+![Home Preview](screenshots/Home/front-page-ai.png)
 
 ---
 
@@ -43,7 +45,7 @@ This project was built for learning and portfolio purposes, with multiple custom
 - Implemented using a custom `WP_Query`
 - Independently researched and implemented
 
-![AI Category Preview](/scrrenshots/AI/ai_category.png)
+![AI Category Preview](screenshots/AI/ai_category.png)
 
 ---
 
@@ -53,20 +55,20 @@ This project was built for learning and portfolio purposes, with multiple custom
 - Gradient text animation applied to site title
 - Fully handcrafted styling
 
-![Preview](/scrrenshots/My-Features/header-title.png)
+![Animated rainbow gradient site title](screenshots/My-Features/header-title.png)
 
 ---
 
 ## 3️⃣ Responsive Mobile Menu Toggle
 
-**Files:** `script.js`, `header.php`
+**Files:** `JS/script.js`, `header.php`
 
 - jQuery-based toggle functionality
 - Enhances usability on smaller screens
 - Not part of tutorial content
 
-![Mobile menu Preview](/scrrenshots/My-Features/menu-mobile.png)
- ![Mobile menu Preview 2](/scrrenshots/My-Features/menu-mobile2.png)
+![Mobile menu Preview](screenshots/My-Features/menu-mobile.png)
+ ![Mobile menu Preview 2](screenshots/My-Features/menu-mobile2.png)
 
 ---
 
@@ -76,16 +78,16 @@ This project was built for learning and portfolio purposes, with multiple custom
 - Replaces default inline CF7 messages
 - Handles both success and error states
 
-![Preview](/scrrenshots/My-Features/cf7-popup.png)
+![Contact Form 7 popup message](screenshots/My-Features/cf7-popup.png)
 
 ### Error State
 
-![Preview](/scrrenshots/Contact-us%20/error_message.png)
+![Contact form error popup](screenshots/Contact-us/error_message.png)
 
 
 ### Success State
 
-![Preview](/scrrenshots/Contact-us%20/submit_message.png)
+![Contact form success popup](screenshots/Contact-us/submit_message.png)
 
 ---
 
@@ -93,11 +95,11 @@ This project was built for learning and portfolio purposes, with multiple custom
 
 ## 🤖 AI Category
 
-![Preview](/scrrenshots/AI/ai_category.png)
+![AI category page](screenshots/AI/ai_category.png)
 
 ## 📱 Gadgets Category
 
-![Preview](/scrrenshots/Gadgets/gadgets_category.png)
+![Gadgets category page](screenshots/Gadgets/gadgets_category.png)
 
 
 
@@ -109,7 +111,6 @@ This project was built for learning and portfolio purposes, with multiple custom
 technews/
 │── style.css
 │── functions.php
-│── script.js
 │── header.php
 │── footer.php
 │── sidebar.php
@@ -118,6 +119,9 @@ technews/
 │── single.php
 │── page.php
 │── banner.jpg
+│
+├── JS/
+│   └── script.js
 │
 ├── screenshots/
 │   ├── AI/
